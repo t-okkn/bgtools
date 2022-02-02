@@ -31,9 +31,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bulma/css/bulma.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bulma-toast/dist/bulma-toast.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -99,9 +102,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bulma/css/bulma.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bulma-toast/dist/bulma-toast.min.js"
+            ]
           }
         }
       }
